@@ -2,7 +2,6 @@ import imaplib
 import email
 import yaml
 import pandas as pd
-
 with open('credentials.yml') as f:
     content = f.read()
 
